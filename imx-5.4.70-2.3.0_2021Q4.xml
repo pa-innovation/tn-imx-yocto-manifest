@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="2"/>
+  <default sync-j="8"/>
 
   <remote fetch="https://source.codeaurora.org/external/imx" name="CAF"/>
   <remote fetch="https://github.com/OSSystems" name="OSSystems"/>
@@ -17,6 +17,8 @@
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/TechNexion" name="tn-bsp" />
 
+  <remote fetch="https://github.com/mendersoftware" name="meta-mender" />
+  
   <project name="fsl-community-bsp-base" path="sources/base" remote="community" revision="01488a237cdf45b3087420e169c9f67b84fd7373">
     <linkfile dest="README" src="README"/>
     <linkfile dest="setup-environment" src="setup-environment"/>
@@ -48,4 +50,5 @@
 
   <project name="poky" path="sources/poky" remote="yocto" revision="d88d62c20d7d8da85f02edb170dae0280624ad7e"/>
 
+  <project name="meta-mender" path="meta-mender" remote="meta-mender" revision="zeus" />
 </manifest>
