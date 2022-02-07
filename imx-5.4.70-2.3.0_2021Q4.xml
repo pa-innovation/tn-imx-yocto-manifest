@@ -50,5 +50,5 @@
 
   <project name="poky" path="sources/poky" remote="yocto" revision="d88d62c20d7d8da85f02edb170dae0280624ad7e"/>
 
-  <project name="meta-mender" path="meta-mender" remote="meta-mender" revision="zeus" />
+  <project name="meta-mender" path="mender/meta-mender" remote="meta-mender" revision="zeus" />
 </manifest>
