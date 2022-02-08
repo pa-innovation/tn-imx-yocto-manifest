@@ -17,6 +17,8 @@
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/TechNexion" name="tn-bsp" />
 
+  <remote fetch="https://github.com/mendersoftware" name="meta-mender" />
+
   <project name="fsl-community-bsp-base" path="sources/base" remote="community" revision="01488a237cdf45b3087420e169c9f67b84fd7373">
     <linkfile dest="README" src="README"/>
     <linkfile dest="setup-environment" src="setup-environment"/>
@@ -48,4 +50,5 @@
 
   <project name="poky" path="sources/poky" remote="yocto" revision="daf096e295121ea49ebf21f8070e9a6e28f5d46c"/>
 
+  <project name="meta-mender" path="mender/meta-mender" remote="meta-mender" revision="zeus" />
 </manifest>
