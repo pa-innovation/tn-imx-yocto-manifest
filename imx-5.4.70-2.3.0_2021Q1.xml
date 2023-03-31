@@ -3,14 +3,14 @@
 
   <default sync-j="2"/>
 
-  <remote fetch="https://github.com/nxp-imx/meta-imx" name="CAF"/>
+  <remote fetch="https://github.com/nxp-imx" name="CAF"/>
   <remote fetch="https://github.com/OSSystems" name="OSSystems"/>
   <remote fetch="https://github.com/meta-qt5"  name="QT5"/>
   <remote fetch="https://github.com/NXPNFCLinux" name="nfc"/>
   <remote fetch="https://github.com/TimesysGit"  name="Timesys"/>
   <remote fetch="https://github.com/kraj" name="clang"/>
   <remote fetch="https://github.com/Freescale" name="community"/>
-  <remote fetch="https://github.com/nxp-imx-support/meta-nxp-demo-experience" name="imx-support"/>
+  <remote fetch="https://github.com/nxp-imx-support" name="imx-support"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="https://git.openembedded.org"  name="python2"/>
   <remote fetch="https://github.com/meta-rust"  name="rust"/>
