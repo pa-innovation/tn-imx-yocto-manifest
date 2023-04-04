@@ -15,7 +15,7 @@
   <remote fetch="https://git.openembedded.org"  name="python2"/>
   <remote fetch="https://github.com/meta-rust"  name="rust"/>
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
-  <remote fetch="https://github.com/brett-lynnes/meta-tn-imx-bsp/tree/patch-1" name="tn-bsp" />
+  <remote fetch="https://github.com/brett-lynnes" name="tn-bsp" />
   <remote fetch="https://github.com/mendersoftware" name="meta-mender" />
 
   <project name="fsl-community-bsp-base" path="sources/base" remote="community" revision="01488a237cdf45b3087420e169c9f67b84fd7373">
