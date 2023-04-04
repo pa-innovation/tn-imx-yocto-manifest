@@ -15,7 +15,7 @@
   <remote fetch="https://git.openembedded.org"  name="python2"/>
   <remote fetch="https://github.com/meta-rust"  name="rust"/>
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
-  <remote fetch="https://github.com/TechNexion" name="tn-bsp" />
+  <remote fetch="https://github.com/brett-lynnes/meta-tn-imx-bsp/tree/patch-1" name="tn-bsp" />
   <remote fetch="https://github.com/mendersoftware" name="meta-mender" />
 
   <project name="fsl-community-bsp-base" path="sources/base" remote="community" revision="01488a237cdf45b3087420e169c9f67b84fd7373">
@@ -32,7 +32,7 @@
 
   <project name="meta-imx" path="sources/meta-imx" remote="CAF" revision="refs/tags/rel_imx_5.4.70_2.3.0_gh" upstream="zeus-5.4.70-2.3.0"/>
 
-  <project remote="tn-bsp" name="meta-tn-imx-bsp" path="sources/meta-tn-imx-bsp" revision="refs/tags/tn-zeus_5.4.70-2.3.0_20210429" >
+  <project remote="tn-bsp" name="meta-tn-imx-bsp" path="sources/meta-tn-imx-bsp" revision="719c259243a842d4c5c764f7bfd165f48356b24b" >
     <linkfile dest="tn-setup-release.sh" src="tools/tn-setup-release.sh"/>
     <linkfile dest="README-TechNexion-BSP" src="README"/>
   </project>
