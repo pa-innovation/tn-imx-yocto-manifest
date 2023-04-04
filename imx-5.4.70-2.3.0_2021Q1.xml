@@ -32,7 +32,7 @@
 
   <project name="meta-imx" path="sources/meta-imx" remote="CAF" revision="refs/tags/rel_imx_5.4.70_2.3.0_gh" upstream="zeus-5.4.70-2.3.0"/>
 
-  <project remote="tn-bsp" name="meta-tn-imx-bsp" path="sources/meta-tn-imx-bsp" revision="719c259243a842d4c5c764f7bfd165f48356b24b" >
+  <project remote="tn-bsp" name="meta-tn-imx-bsp" path="sources/meta-tn-imx-bsp" revision="b10b9e3112006ffc98797913226575e3ae6b56ad" >
     <linkfile dest="tn-setup-release.sh" src="tools/tn-setup-release.sh"/>
     <linkfile dest="README-TechNexion-BSP" src="README"/>
   </project>
